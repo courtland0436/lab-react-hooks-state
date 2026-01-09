@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Light mode */
+.light-mode {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #888;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Buttons in dark mode */
+.dark-mode button {
+  background-color: #555;
+  color: white;
+  border: 1px solid #aaa;
+}
+
+/* Buttons in light mode */
+.light-mode button {
+  background-color: #eee;
+  color: black;
+  border: 1px solid #aaa;
+}
+
+/* Product card */
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Out of stock styling */
+.outOfStock {
+  opacity: 0.5;
+}
+
